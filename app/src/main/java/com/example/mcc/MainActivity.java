@@ -48,7 +48,9 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            id.setText(remeber);
+//            id.setText(remeber);
+            Intent intent=new Intent(MainActivity.this,Home.class);
+            startActivity(intent);
         }
 
 
